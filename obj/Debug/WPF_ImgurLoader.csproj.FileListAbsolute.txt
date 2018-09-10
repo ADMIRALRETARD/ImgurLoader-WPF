@@ -1,0 +1,14 @@
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\bin\Debug\WPF_ImgurLoader.exe.config
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\bin\Debug\WPF_ImgurLoader.exe
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\bin\Debug\WPF_ImgurLoader.pdb
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.csprojResolveAssemblyReference.cache
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\MainWindow.g.cs
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\App.g.cs
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader_MarkupCompile.cache
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader_MarkupCompile.lref
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\MainWindow.baml
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.g.resources
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.Properties.Resources.resources
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.csproj.GenerateResource.Cache
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.exe
+C:\Users\Gercules\Documents\Visual Studio 2017\Projects\WPF_ImgurLoader\WPF_ImgurLoader\obj\Debug\WPF_ImgurLoader.pdb
