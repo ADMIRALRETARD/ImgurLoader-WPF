@@ -5,41 +5,68 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_ImgurLoader"
         mc:Ignorable="d"
-        Title="ImgurLoader" Height="350" Width="525" >
+        Title="ImgurLoader" Height="200" Width="525" Icon="Resources\imgurIcon.ico" >
 
-    <Grid>
+    <Grid >
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition>
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
         <TextBox HorizontalAlignment="Left" 
                  Height="25"
                  Margin="30,35,0,0" 
                  TextWrapping="Wrap" 
                  Text="TextBox" 
                  VerticalAlignment="Top" 
-                 Width="250"/>
+                 Width="250"
+                 Grid.Row="0"/>
         <TextBox HorizontalAlignment="Left" 
                  Height="23" 
                  Margin="30,95,0,0" 
                  TextWrapping="Wrap" 
                  Text="TextBox"
                  VerticalAlignment="Top" 
-                 Width="250"/>
+                 Width="250"
+                 Grid.Row="1"
+                 />
         <Button Content="Открыть" 
                 HorizontalAlignment="Left" 
                 Margin="310,35,0,0" 
                 VerticalAlignment="Top" 
                 Width="75" 
-                Height="25"/>
+                Height="25"
+                Grid.Row="0"/>
         <Button Content="Загрузить" 
                 HorizontalAlignment="Left" 
                 Margin="410,35,0,0" 
                 VerticalAlignment="Top" 
                 Width="75" 
-                Height="25"/>
+                Height="25"
+                Grid.Row="0"/>
         <Button Content="Скопировать в буфер обмена" 
                 HorizontalAlignment="Left" 
                 Margin="310,95,0,0" 
                 VerticalAlignment="Top" 
                 Width="175" 
-                Height="25"/>
+                Height="25"
+                Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" 
+                   Height="18" 
+                   Margin="85,15,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="Расположение файла" 
+                   VerticalAlignment="Top" 
+                   Width="160"/>
+        <TextBlock HorizontalAlignment="Left" 
+                   Height="18" 
+                   Margin="85,75,0,0" 
+                   TextWrapping="Wrap" 
+                   Text="Ссылка на изображение" 
+                   VerticalAlignment="Top" 
+                   Width="160"/>
 
     </Grid>
 </Window>

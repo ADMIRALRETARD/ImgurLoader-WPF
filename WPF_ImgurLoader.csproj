@@ -95,10 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Icon.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\EztBb5X2_200x200.jpg" />
+    <Resource Include="Resources\imgurIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

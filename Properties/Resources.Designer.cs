@@ -59,15 +59,5 @@ namespace WPF_ImgurLoader.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap imgurIcon {
-            get {
-                object obj = ResourceManager.GetObject("imgurIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
