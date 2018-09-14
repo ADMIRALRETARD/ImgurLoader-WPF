@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_ImgurLoader"
         mc:Ignorable="d"
-        Title="ImgurLoader" Height="200" Width="525" Icon="Resources\imgurIcon.ico" >
+        Title="ImgurLoader" Height="200" Width="525" Icon="Resources\imgurIcon.ico" WindowStartupLocation="CenterScreen" MinHeight="200" MinWidth="525" >
 
     <Grid >
 
@@ -15,51 +15,51 @@
 
             </RowDefinition>
         </Grid.RowDefinitions>
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="pathFiletb" HorizontalAlignment="Left" 
                  Height="25"
                  Margin="30,35,0,0" 
-                 TextWrapping="Wrap" 
-                 Text="TextBox" 
                  VerticalAlignment="Top" 
                  Width="250"
-                 Grid.Row="0"/>
-        <TextBox HorizontalAlignment="Left" 
+                 Grid.Row="0" 
+                 HorizontalContentAlignment="Stretch"/>
+        <TextBox x:Name="get_Url" 
+                 HorizontalAlignment="Left" 
                  Height="23" 
-                 Margin="30,95,0,0" 
-                 TextWrapping="Wrap" 
-                 Text="TextBox"
+                 Margin="30,95,0,0"
                  VerticalAlignment="Top" 
                  Width="250"
                  Grid.Row="1"
                  />
-        <Button Content="Открыть" 
-                HorizontalAlignment="Left" 
-                Margin="310,35,0,0" 
+        <Button x:Name="pathFilebtn" Content="Открыть" 
+                HorizontalAlignment="Right" 
+                Margin="0,35,130,0" 
+                VerticalAlignment="Top" 
+                Width="75" 
+                Height="23"
+                Grid.Row="0" Click="pathFilebtn_Click" />
+        <Button x:Name="fileUploadbtn" 
+                Content="Загрузить" 
+                HorizontalAlignment="Right" 
+                Margin="0,35,30,0" 
                 VerticalAlignment="Top" 
                 Width="75" 
                 Height="25"
-                Grid.Row="0"/>
-        <Button Content="Загрузить" 
-                HorizontalAlignment="Left" 
-                Margin="410,35,0,0" 
-                VerticalAlignment="Top" 
-                Width="75" 
-                Height="25"
-                Grid.Row="0"/>
+                Grid.Row="0" 
+                Click="fileUploadbtn_Click"/>
         <Button Content="Скопировать в буфер обмена" 
-                HorizontalAlignment="Left" 
-                Margin="310,95,0,0" 
+                HorizontalAlignment="Right" 
+                Margin="0,95,30,0" 
                 VerticalAlignment="Top" 
                 Width="175" 
-                Height="25"
-                Grid.Row="1"/>
+                Height="23"/>
         <TextBlock HorizontalAlignment="Left" 
                    Height="18" 
                    Margin="85,15,0,0" 
                    TextWrapping="Wrap" 
                    Text="Расположение файла" 
                    VerticalAlignment="Top" 
-                   Width="160"/>
+                   Width="160"
+                   />
         <TextBlock HorizontalAlignment="Left" 
                    Height="18" 
                    Margin="85,75,0,0" 
