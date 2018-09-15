@@ -66,5 +66,25 @@ namespace WPF_ImgurLoader
                 MessageBox.Show("Произошла ошибка при загрузке изображения");
             }
         }
+
+        private void copyToClipbtn_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Clipboard.Clear();
+                Clipboard.SetText(get_Url.Text);
+            }
+            catch (Exception) { MessageBox.Show("Сначала загрузите изображение"); }
+        }
+
+        private void Window_Drop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                string[] s = (string[])e.Data.GetData(DataFormats.FileDrop);
+                foreach (string pathname in s)
+                    pathFiletb.Text += pathname;
+            }
+        }
     }
 }
